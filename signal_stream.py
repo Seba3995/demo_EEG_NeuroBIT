@@ -19,9 +19,9 @@ else:
 
     # Configure chart
     plt.ion()
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(10, 3))
     xdata, ydata = [], []
-    line, = ax.plot([], [], 'b-')
+    line, = ax.plot([], [], '-', color='#1f77b4')
     plt.title("Real-Time EEG")
     plt.xlabel("Time (s)")
     plt.ylabel("EEG")

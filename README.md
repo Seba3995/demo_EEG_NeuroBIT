@@ -1,5 +1,9 @@
 # Real-Time EEG Signal Acquisition Example with Neurobit and OpenSignals
 
+<p align="center">
+  <img src="eeg.gif" alt="eeg signal visualization"/>
+</p>
+
 This repo contains a Python code example for real-time EEG signal acquisition and visualization using the **Neurobit** device and the **Lab Streaming Layer (LSL)** library.
 
 ```signal_stream.py``` is based on the guide available for [BITalino and OpenSignals](https://bitalino.com/storage/uploads/media/open-signals-revolution---lab-streaming-layer-guide-python.pdf), adapted to work with Neurobit.
